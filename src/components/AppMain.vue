@@ -48,7 +48,7 @@ export default {
         <div class="d-flex justify-content-center">
             <input class="input-group" style="width: 13rem;" @keyup.enter="getUserData" v-model="username" placeholder="Scrivi username">
             <button class="btn btn-primary ms-3" @click="getUserData">
-            Cerca
+                Cerca
             </button>
         </div>
 
