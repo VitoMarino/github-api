@@ -6,4 +6,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 
+const token = import.meta.env.VITE_TOKEN;
+
 createApp(App).mount('#app')

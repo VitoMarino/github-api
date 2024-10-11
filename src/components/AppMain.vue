@@ -15,7 +15,7 @@ export default {
         async getUserData() {
             // try viene utilizzato per eseguire codice che potrebbe fallire. Se va in errore catch cattura e lo gestisce
             try {
-                const token = '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';
+                const token = import.meta.env.VITE_TOKEN;;
                 // await fa si che la funzione aspetti fino a quando la richiesta non ottiene risposta.
                 const response = await axios.get(`https://api.github.com/users/${this.username}`, {
                     // Con headers passo il token per autenticarmi alla richiesta API
